@@ -3,4 +3,4 @@
 👀 I’m interested in coding
 🌱 I’m currently learning java & php
 💞️ I’m looking to collaborate on github
-📫 How to reach me via insta
+📫 reach me via insta
