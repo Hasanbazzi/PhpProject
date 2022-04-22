@@ -20,7 +20,7 @@
 	<th>id	</th>
 	<th>full name	</th>
 		<th>username</th>
-		<th>actions	</th>
+	
 	</tr>
 	<?php
 	
@@ -40,10 +40,7 @@
 	<td><?php echo $sn++; ?>	</td>
 	<td><?php  echo $full_name; ?>	</td>
 		<td><?php  echo $username; ?></td>
-		<td>
-		<a href="" class="btn-secondary">Update Admin</a>
-		<a href="" class="btn-danger">delete admin</a>
-		</td>
+		
 	</tr>		
 			<?php
 			}
