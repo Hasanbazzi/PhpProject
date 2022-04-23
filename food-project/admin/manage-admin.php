@@ -20,7 +20,7 @@
 	<th>id	</th>
 	<th>full name	</th>
 		<th>username</th>
-	
+		
 	</tr>
 	<?php
 	
@@ -40,7 +40,9 @@
 	<td><?php echo $sn++; ?>	</td>
 	<td><?php  echo $full_name; ?>	</td>
 		<td><?php  echo $username; ?></td>
-		
+		<td>
+	
+		</td>
 	</tr>		
 			<?php
 			}

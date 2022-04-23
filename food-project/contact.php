@@ -69,7 +69,54 @@ if (isset($_POST['submit'])){
 
         </div>
     </section>
+ 	<section class="food-menu">
+   <div class="container">
+      <h2 class="text-center">Top Feedbacks</h2>
+      <?php 
+         $sql2 = "SELECT * FROM tbl_contact  WHERE experience='Outstanding' OR experience='Good'";
+         
+         $res2= mysqli_query($conn,$sql2);
+         $count2 = mysqli_num_rows($res2);
+         if ($count2>0){
+         	while ($row=mysqli_fetch_assoc($res2)){
+					$id=$row['id'];
+         			$fullname=$row['fullname'];
+         			$email=$row['email'];
+         		    $suggestions=$row['Suggestions'];
+         			$experience=$row['experience'];		
+					
+         			?>		
+      <div class="food-menu-box f">
+        <div class="food-menu-img">
+            
+            <img src="images/reviewicon.png "  width="100" >
+         
+         </div>
+         <div class="food-menu-desc">
+            <h4><?php echo $fullname;	?></h4>
+            <p class="food-price"><?php echo $experience;	?></p>
+            <p class="food-detail">
+               <?php echo $suggestions;	?>
+            </p>
+            <br>
+          
+         </div>
+      </div>
+      <?php
+         }
+         	
+         }
+         
+         else {
+         	echo "food not available";
+         }
+         	?>
+      <div class="clearfix"></div>
+   </div>
+</section> 
+
   
+		
     <section class="social">
         <div class="container text-center">
             <ul>
