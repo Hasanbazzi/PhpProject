@@ -39,6 +39,9 @@
 					 <li>
                         <a href="reservation.php">Reservations</a>
                     </li>
+					<li>
+                        <a href="aboutme.php">About me</a>
+                    </li>
                 </ul>
             </div>
 
