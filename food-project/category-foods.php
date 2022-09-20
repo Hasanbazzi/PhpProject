@@ -87,9 +87,8 @@ while($row2=mysqli_fetch_assoc($res2)){
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+   
 
-    <!-- social Section Starts Here -->
     <section class="social">
         <div class="container text-center">
             <ul>
@@ -105,9 +104,9 @@ while($row2=mysqli_fetch_assoc($res2)){
             </ul>
         </div>
     </section>
-    <!-- social Section Ends Here -->
+    
 
-    <!-- footer Section Starts Here -->
+    <!--footer Starts Here-->
  <?php 
 
 include ('partials-front/footer.php');
