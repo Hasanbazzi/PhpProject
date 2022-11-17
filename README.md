@@ -1,6 +1,4 @@
 # RestaurantFullStack
-👋 Hi, I’m hasan bazzi
-👀 I’m interested in coding
-🌱 I’m currently learning java & php
-💞️ I’m looking to collaborate on github
-📫 reach me via insta
+Website for a restaurant made by me .
+front-end languages : html-css .
+back-end langauges : php .
