@@ -1,4 +1,4 @@
-# PhpProject
+# RestaurantFullStack
 👋 Hi, I’m @BaZzi1
 👀 I’m interested in coding
 🌱 I’m currently learning java & php
