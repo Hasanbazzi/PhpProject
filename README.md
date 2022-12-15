@@ -1,4 +1,2 @@
 # RestaurantFullStack
-Website for a restaurant made by me .
-Front-end Languages : html-css .
-Back-end Langauges : php .
+Website for a restaurant done using PHP to cover the back-end side in addition to the front-end.
